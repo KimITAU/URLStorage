@@ -132,17 +132,6 @@ function gtmIRXFunction() {
 
     /* ========================  END FUNCTIONS   ======================== */ 
 
-
-    window.onbeforeunload = function(ev) {
-        console.log(ev);
-        if(document.activeElement.href ){
-            //add params to href
-            //window.location.href = "http://google.com";
-            document.activeElement.href += '?bob=adsflkjadsf';
-            //return false;
-        }
-    };
-
     //make these functions "public"
     return {
         setSiteParameters : setSiteParameters,
