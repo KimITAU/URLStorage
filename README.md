@@ -1,1 +1,1 @@
-Helper functions allowing you to fetch and update the page query string parameters
+Helper functions allowing you to store encoded data in the Query String 
